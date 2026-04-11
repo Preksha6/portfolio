@@ -173,13 +173,13 @@ h1 .last  { display: block; color: var(--gold); font-style: italic; }
 }
 
 .hc-profile-img {
-  width: 55%;
-  height: 55%;
+  width: 50%;
+  height: 50%;
   border-radius: 12px 12px 12px 12px;
   object-fit: cover;
-display: block;
-margin-left: auto;
-margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 16px;
 }
 
@@ -230,50 +230,6 @@ h2.sec-title em { color: var(--gold); font-style: italic; }
 .about-links { display: flex; gap: 12px; margin-top: 36px; flex-wrap: wrap; }
 .about-right { display: flex; flex-direction: column; gap: 1px; }
 
-/* Photo box */
-.photo-box {
-  width: 100%;
-  aspect-ratio: 1;
-  max-height: 240px;
-  overflow: hidden;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  margin-bottom: 1px;
-  position: relative;
-}
-.profile-photo {
-  width: 100%; height: 100%;
-  object-fit: cover; object-position: center top;
-  display: block;
-}
-.photo-placeholder {
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%; height: 100%;
-  background: var(--bg2);
-  text-align: center;
-  gap: 10px;
-  padding: 20px;
-}
-.photo-placeholder span {
-  font-family: 'Playfair Display', serif;
-  font-size: 48px; color: var(--gold); font-style: italic;
-}
-.photo-placeholder p {
-  font-size: 11px !important;
-  color: var(--muted) !important;
-  margin: 0 !important;
-  line-height: 1.6 !important;
-}
-.photo-placeholder code {
-  color: var(--gold);
-  font-size: 10px;
-  background: rgba(232,184,109,.1);
-  padding: 2px 6px;
-  border-radius: 2px;
-}
 
 /* Stat cards */
 .stat-stack { display: flex; flex-direction: column; gap: 1px; }
