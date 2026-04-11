@@ -171,15 +171,19 @@ h1 .last  { display: block; color: var(--gold); font-style: italic; }
   background: linear-gradient(135deg, rgba(232,184,109,.06) 0%, transparent 60%);
   border-radius: 4px;
 }
-/* FIXED: float card now sits inside the right column, not overflowing */
-.hc-float {
-  width: 190px;
-  bottom: -20px;
-  left: -20px;
-  background: var(--bg2);
-  border-color: rgba(232,184,109,.25);
-  z-index: 10;
+
+.hc-profile-img {
+  width: 55%;
+  height: 55%;
+  border-radius: 12px 12px 12px 12px;
+  object-fit: cover;
+display: block;
+margin-left: auto;
+margin-right: auto;
+  margin-bottom: 16px;
 }
+
+
 .hc-tag { font-size: 9px; letter-spacing: 3px; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
 .hc-dots { display: flex; gap: 6px; margin-bottom: 20px; }
 .hc-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--border); }
